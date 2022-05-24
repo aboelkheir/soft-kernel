@@ -58,7 +58,19 @@ successSubmit = function(elem) {
 }
 
 $win.on('load', function() {
-
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+      
     $(".js-img").each(function() {
         var $el = $(this);
         $el.attr('src', $el.data("src"));
