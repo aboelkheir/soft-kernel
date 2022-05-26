@@ -861,3 +861,22 @@ body:not(.loaded) .popup-decor-top { background: url(../img/bg/popup_decor-top.s
 .soul h3{
   padding-top: 50px;
 }
+.flag{
+  width: 20px;
+
+}
+.lands li {
+  display: flex;
+  padding-bottom: 10px;
+}
+ 
+.lands li a {
+  color: #1B2B7C;
+  line-height: 140%;
+  font-weight: 700;
+  -webkit-transition: color .4s ease;
+  -o-transition: color .4s ease;
+  transition: color .4s ease;
+  padding-left: 10px;
+}
+ 
